@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Create a `.env.local` file in your local root directory. Add your API Keys
+
+```
+NEXT_PUBLIC_API_KEY=your_api_key
+NEXT_PUBLIC_SOCKET_API_KEY=your_socket_api_key
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -10,7 +17,7 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:4444](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:4444](http://localhost:4444) with your browser to see the result.
 
 ## Screenshots
 
